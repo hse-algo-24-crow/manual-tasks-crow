@@ -106,6 +106,7 @@ $$
 
 ### Итоговая диаграмма Ганта  
 
+![ееее](https://github.com/user-attachments/assets/80590d72-c315-486b-b013-be8720a8d006)
 
 ---
 
