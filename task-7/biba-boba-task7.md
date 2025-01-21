@@ -80,14 +80,14 @@ A-->B((B #14 <13,10>))
 B-->C((C #13 <12>))
 B-->E((E #10 <9>))
 C-->F((F #12 <9,5>))
-D((D#11 <7,6>))-->G((G))
-D-->H((H #7 <4>))
-E-->I((I #9 <8>))
+D((D#11 <8,7>))-->G((G))
+D-->H((H #8 <4>))
+E-->I((I #9 <6>))
 F-->J((J #5 <2>))
-F-->I((I #9 <8>))
-G((G #6 <3>))-->K((K #3 <1>))
+F-->I((I #9 <6>))
+G((G #7 <3>))-->K((K #3 <1>))
 H-->L((L #4 <1>))
-I-->M((M #8 <2,1>))
+I-->M((M #6 <2,1>))
 J-->N((N))
 K-->O((O))
 L-->O((O #1 <>))
@@ -111,15 +111,15 @@ gantt
     F         :h, after e, 1h
     E         :a, after h, 1h
     I         :b, after a, 1h
-    M         :k, after b, 1h
-    G         :m, after k, 1h
-    L         :t, after m, 1h
-    N         :v, after t, 1h
+    G         :k, after b, 1h
+    J         :m, after k, 1h
+    K         :t, after m, 1h
+    O         :v, after t, 1h
     section Исполнитель 2
     D         :f, 03:00, 1h
-    H         :j, 06:00, 1h
-    J         :x, 07:00, 1h
-    K         :y, after x, 1h
-    O         :z, after y, 1h
+    H         :j, 05:00, 1h
+    M         :x, 06:00, 1h
+    L         :y, after x, 1h
+    N         :z, after y, 1h
     Окончание выполнения работ : milestone, m2, 10:00, 0h
 ```
