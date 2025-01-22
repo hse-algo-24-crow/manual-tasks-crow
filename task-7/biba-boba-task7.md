@@ -75,12 +75,12 @@ M-->O
 
 ```mermaid
 graph TB
-A((A #15 <14,11>))-->D((D #13 <7,6>))
-A-->B((B #14 <13,10>))
+A((A #15 <14,10>))-->D((D #10 <8,7>))
+A-->B((B #14 <13,11>))
 B-->C((C #13 <12>))
-B-->E((E #10 <9>))
+B-->E((E #11 <9>))
 C-->F((F #12 <9,5>))
-D((D#11 <8,7>))-->G((G))
+D((D#10 <8,7>))-->G((G))
 D-->H((H #8 <4>))
 E-->I((I #9 <6>))
 F-->J((J #5 <2>))
@@ -109,17 +109,17 @@ gantt
     B         :i, after c, 1h    
     C         :e, after i, 1h    
     F         :h, after e, 1h
-    E         :a, after h, 1h
-    I         :b, after a, 1h
-    G         :k, after b, 1h
-    J         :m, after k, 1h
-    K         :t, after m, 1h
-    O         :v, after t, 1h
+    I         :a, after h, 1h
+    M         :b, after a, 1h
+    L         :k, after b, 1h
+    N         :m, after k, 1h
     section Исполнитель 2
-    D         :f, 03:00, 1h
-    H         :j, 05:00, 1h
-    M         :x, 06:00, 1h
-    L         :y, after x, 1h
-    N         :z, after y, 1h
+    D         :f, 01:00, 1h
+    E         :p, after f, 1h  
+    H         :j, after p, 1h  
+    G         :x, after j, 1h  
+    J         :y, after x, 1h
+    K         :z, after y, 1h
+    O         :o, after z, 1h
     Окончание выполнения работ : milestone, m2, 10:00, 0h
 ```
