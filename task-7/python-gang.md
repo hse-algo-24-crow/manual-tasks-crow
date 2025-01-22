@@ -117,8 +117,8 @@ gantt
     I         :i, after c, 1h
     G         :g, after i, 1h
     L         :l, after g, 1h
-    O         :o, after j, 1h
-    M         :m, after o, 1h
+    O         :o, after l, 1h
+    M         :m, after k, 1h
     Окончание выполнения заданий : milestone, m2, 08:00, 0h
 ```
 
