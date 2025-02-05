@@ -167,22 +167,21 @@ gantt
     A :a, 00:00, 1h
     C :c, after a, 1h
     E :e, after c, 1h
-    F :f, after e, 1h
-    H :h, after f, 1h
-    K :k, after h, 1h
+    H :h, after e, 1h
+    I :i, after h, 1h
+    K :k, after i, 1h
     J :j, after k, 1h
     M :m, after j, 1h
     O :o, after m, 1h
     
     section Исполнитель 2
-    %% пустой период 00:00-01:00
     B :b, 01:00, 1h
     D :d, after b, 1h
-    I :i, after d, 1h
-    G :g, after i, 1h
+    F :f, after d, 1h
+    G :g, after f, 1h
     L :l, after g, 1h
     N :n, after l, 1h
-    %% простаивает c 07:00 до 09:00
+    %% Простой с 07:00 до 09:00
 ```
 
 - Промежуток с 00:00 до 01:00 у **Исполнителя 2** и время с 07:00 до 09:00 у **Исполнителя 2** – это периоды простоя, когда данный исполнитель не загружен работой.
